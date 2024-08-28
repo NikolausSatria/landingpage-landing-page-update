@@ -18,7 +18,7 @@ function Partners() {
 
           />
         <Image
-            src="/ModularityClientLogo/ShamaLogoTransparent.png"
+            src="/ModularityClientLogo/ShamalogoTransparent.png"
             width={200}
             height={200}
             alt="D1VaultLogo"
