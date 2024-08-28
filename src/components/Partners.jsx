@@ -1,5 +1,6 @@
 import React from 'react'
 import Marquee from 'react-fast-marquee'
+import Image from 'next/image'
 
 function Partners() {
   return (
@@ -8,7 +9,7 @@ function Partners() {
           <h1 className="text-3xl md:text-4xl font-semibold text-white py-5 my-5">Our Recent Client</h1>
    
         <Marquee autoFill={true}>
-        <img
+        <Image
             src="/ModularityClientLogo/D1vault.png"
             width={250}
             height={250}
@@ -16,7 +17,7 @@ function Partners() {
             className='px-5'
 
           />
-        <img
+        <Image
             src="/ModularityClientLogo/ShamaLogoTransparent.png"
             width={200}
             height={200}
@@ -24,7 +25,7 @@ function Partners() {
             className='px-5'
        
           />
-        <img
+        <Image
             src="/ModularityClientLogo/Hakedologo.png"
             width={200}
             height={200}
@@ -32,7 +33,7 @@ function Partners() {
             className='px-5'
    
           />
-        <img
+        <Image
             src="/ModularityClientLogo/PT_AndalanMutuEnergi.png"
             width={200}
             height={200}
@@ -40,7 +41,7 @@ function Partners() {
             className='px-5'
         
           />
-        <img
+        <Image
             src="/ModularityClientLogo/Stuffkeren2.png"
             width={200}
             height={200}

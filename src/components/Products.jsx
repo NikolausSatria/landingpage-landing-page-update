@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Products() {
   return (
@@ -14,7 +15,7 @@ function Products() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
           <div className="bg-background rounded-lg shadow-lg overflow-hidden">
-            <img
+            <Image
               src="/Landingpage.png"
               width={400}
               height={300}
@@ -40,7 +41,7 @@ function Products() {
             </div>
           </div>
           <div className="bg-background rounded-lg shadow-lg overflow-hidden">
-            <img
+            <Image
               src="/stuff.keren.png"
               width={400}
               height={300}
@@ -63,7 +64,7 @@ function Products() {
             </div>
           </div>
           <div className="bg-background rounded-lg shadow-lg overflow-hidden">
-            <img
+            <Image
               src="/frame8.png"
               width={400}
               height={300}

@@ -28,8 +28,9 @@ function Testimonials() {
               </div>
             </div>
             <p className="text-muted-foreground mt-4">
-            "Kami bekerja sama dengan Modularity Solution untuk pengembangan aplikasi web kami,
-            mereka memberikan hasil dan pelayanan terbaik antuk kami."
+            &quot;Kami bekerja sama dengan Modularity Solution untuk
+              pengembangan aplikasi web kami, mereka memberikan hasil dan
+              pelayanan terbaik untuk kami.&quot;
             </p>
           </Card>
           <Card className="bg-background rounded-lg shadow-lg p-6">
@@ -46,9 +47,10 @@ function Testimonials() {
               </div>
             </div>
             <p className="text-muted-foreground mt-4">
-            "Team Modularity Solution berhasil membuat credibilitas bisnis saya di Internet menjadi lebih baik, 
-            berkat hasil eksekusi team dalam merancang dan  
-            aktif berkonsultasi dengan saya dalam solusi landing page bisnis saya."
+            &quot;Team Modularity Solution berhasil membuat credibilitas
+              bisnis saya di Internet menjadi lebih baik, berkat hasil eksekusi
+              team dalam merancang dan aktif berkonsultasi dengan saya dalam
+              solusi landing page bisnis saya.&quot;
             </p>
           </Card>
           <Card className="bg-background rounded-lg shadow-lg p-6">
@@ -63,8 +65,9 @@ function Testimonials() {
               </div>
             </div>
             <p className="text-muted-foreground mt-4">
-            "Kerja sama dengan Modularity Solution dalam pengelolaan website
-             kami membantu kami mengembangkan lini bisnis property kami."
+            &quot;Kerja sama dengan Modularity Solution dalam pengelolaan
+              website kami membantu kami mengembangkan lini bisnis property
+              kami.&quot;
             </p>
           </Card>
         </div>

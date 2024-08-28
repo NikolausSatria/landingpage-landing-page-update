@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { ParallaxBanner } from "react-scroll-parallax";
+import Image from "next/image";
 
 function Home() {
   return (
@@ -29,11 +30,11 @@ function Home() {
                 >
                 <WhatsAppIcon />
                 
-                <p className="ml-2 mr-1">Let's Talk!</p>
+                <p className="ml-2 mr-1">Let&#39;s Talk!</p>
               </Link>
             </div>
           </div>
-          <img
+          <Image
             src="/Modularitylogo.png"
             width={600}
             height={400}
