@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Input } from "./ui/input";
 import { Textarea } from "@material-tailwind/react";
 import { Button } from "./ui/button";
@@ -23,7 +23,7 @@ function Contact() {
       );
 
       console.log(emailResult.text);
-      setStatus("Email successfully sent!");
+      setStatus("Thank you, we will contact you soon!");
 
       // Extracting form data
       const formData = new FormData(e.target);
@@ -55,22 +55,10 @@ function Contact() {
   };
 
   return (
-    // <div>
-    //   <form className="space-y-4" onSubmit={sendEmail}>
-    //     <Input name="user_name" type="text" placeholder="Name" className="w-full" />
-    //     <Input name="user_email" type="email" placeholder="Email" className="w-full" />
-    //     <Textarea name="message" placeholder="Message" className="w-full" rows={5} />
-    //     <Button value="Send" type="submit" className="w-full">
-    //       Submit
-    //     </Button>
-    //   </form>
-    // </div>
-
     <section id="contact" className="bg-[#3E5B72] py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-8">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[color:#fafafa]">
-            {" "}
             Ready to elevate your digital presence?
           </h2>
           <p className="text-lg md:text-xl text-muted">
@@ -85,22 +73,26 @@ function Contact() {
               type="text"
               placeholder="Name"
               className="w-full"
+              required
             />
             <Input
               name="user_email"
               type="email"
               placeholder="Email"
               className="w-full"
+              required
             />
             <Textarea
               name="message"
               placeholder="Message"
               className="w-full"
+              required
               rows={5}
             />
             <Button value="Send" type="submit" className="w-full">
               Submit
             </Button>
+            {status && <p className="text-center mt-4 text-[color:#fafafa]">{status}</p>}
           </form>
         </div>
       </div>
