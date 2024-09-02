@@ -22,7 +22,7 @@ function Home() {
             </p>
             <div className="flex gap-4">
               <Link
-                href="https://wa.me/+6285707181298"
+                href="https://wa.me/+6281547363378"
                 className="inline-flex items-center justify-center rounded-[40px] bg-primary-foreground text-primary px-5 py-3 text-sm font-medium shadow-sm transition-colors hover:bg-[color:#248AD7] hover:text-[color:#ffff]"
                 prefetch={false}
                 target="_blank"
