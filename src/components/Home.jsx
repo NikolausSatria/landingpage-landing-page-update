@@ -7,42 +7,87 @@ function Home() {
   return (
     
     <section
-      className=" bg-gradient-to-b from-[color:#3E5B72] text-primary-foreground py-8 md:py-12 lg:py-24"
+      className="bg-[#00388F] text-primary-foreground py-8 md:py-12 lg:py-24 flex items-center justify-center"
       id="home"
     >
-      <div className="px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-5">
-            <h1 className="text-4xl md:text-5xl font-bold">
-              Elevate Your Business with Modularity Solution
-            </h1>
-            <p className="text-lg md:text-xl">
+      <div className="px-4 md:px-6 w-full max-w-6xl">
+        <div className="items-center text-center md:text-center">
+          <div>
+            <div className="flex items-center justify-center">
+              <Image
+                src="/Modularitylogo.png"
+                width={150}
+                height={150}
+                alt="Hero Image"
+                className=""
+              />
+            </div>
+            <div>
+              <h1 className="text-xl md:text-5xl mt-4">
+                We Crafting Digital Products
+                <br />
+                for Business Success
+              </h1>
+            </div>
+
+            {/* Card Section */}
+            <div className="mt-32 flex justify-center">
+  <div className="flex justify-center mb-12">
+    {/* Card 1 */}
+    <div
+      className="bg-[#FFFFFF] rounded-lg shadow-md w-[90%] sm:w-[350px] h-[150px] sm:h-[200px] flex items-center justify-center text-black transform -translate-x-[50%] translate-y-[90%]"
+    >
+      Card 1
+    </div>
+    {/* Card 2 */}
+    <div
+      className="bg-[#FFFFFF] rounded-lg shadow-md w-[90%] sm:w-[450px] h-[200px] sm:h-[250px] flex items-center justify-center text-black transform -translate-x-[20%] translate-y-[40%]"
+    >
+      Card 2
+    </div>
+    {/* Card 3 (Center) */}
+    <div
+      className="bg-[#FFFFFF] rounded-lg shadow-lg w-[90%] sm:w-[550px] h-[250px] sm:h-[300px] flex items-center justify-center text-black transform translate-y-0"
+    >
+      Card 3
+    </div>
+    {/* Card 4 */}
+    <div
+      className="bg-[#FFFFFF] rounded-lg shadow-md w-[90%] sm:w-[450px] h-[200px] sm:h-[250px] flex items-center justify-center text-black transform translate-x-[20%] translate-y-[40%]"
+    >
+      Card 4
+    </div>
+    {/* Card 5 */}
+    <div
+      className="bg-[#FFFFFF] rounded-lg shadow-md w-[90%] sm:w-[350px] h-[150px] sm:h-[200px] flex items-center justify-center text-black transform translate-x-[50%] translate-y-[90%]"
+    >
+      Card 5
+    </div>
+  </div>
+</div>
+
+
+
+            {/* <p className="text-lg md:text-xl">
               We specialize in crafting digital products that drive business
               success.
-            </p>
-            <div className="flex gap-4">
+            </p> */}
+            {/* <div className="flex justify-center md:justify-start gap-4 mt-6">
               <Link
                 href="https://wa.me/+6281547363378"
                 className="inline-flex items-center justify-center rounded-[40px] bg-primary-foreground text-primary px-5 py-3 text-sm font-medium shadow-sm transition-colors hover:bg-[color:#248AD7] hover:text-[color:#ffff]"
                 prefetch={false}
                 target="_blank"
                 rel="noopener noreferrer"
-                >
+              >
                 <WhatsAppIcon />
-                
                 <p className="ml-2 mr-1">Let&#39;s Talk!</p>
               </Link>
-            </div>
+            </div> */}
           </div>
-          <Image
-            src="/Modularitylogo.png"
-            width={600}
-            height={400}
-            alt="Hero Image"
-            className="rounded-lg"
-          />
         </div>
       </div>
+
       {/* <div className="px-8 py-15 md:px-6 items-center text-center">
         <h1 className="">Our Recent Client</h1>
         <Marquee>

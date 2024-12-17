@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Navbar,
   Collapse,
@@ -74,15 +75,24 @@ function Header() {
   }, []);
 
   return (
-    <Navbar className="text-white sticky top-0 z-10 block w-full max-w-full px-4 py-6 bg-[#3E5B72] rounded border-none shadow-md h-max lg:px-8 lg:py-4">
+    <Navbar className="text-white sticky top-0 z-10 block w-full max-w-full px-4 py-6 bg-[#00388F] rounded border-none shadow-none h-max lg:px-8 lg:py-4">
       <div className="flex items-center justify-between text-[color:white]">
-        <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 text-xl font-bold"
-        >
-          Modularity Solution
-        </Typography>
+        <div className="flex items-center">
+          <Image
+              src="/Modularitylogo.png"
+              width={60}
+              height={60}
+              alt="Hero Image"
+              className="rounded-lg"
+            />
+          <Typography
+            as="a"
+            href="#"
+            className="mr-4 cursor-pointer py-1.5 text-xl font-bold"
+          >
+            Modularity Solution
+          </Typography>
+        </div>
         <div className="hidden lg:block">{navList}</div>
 
         <IconButton
